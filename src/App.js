@@ -4,6 +4,7 @@ import Headup from './examples/2-headers'
 import Postup from './examples/3-post-request'
 import GlobalInst from './examples/4-global-instance'
 import CustomIns from './examples/5-custom-instance'
+import IntercepIns from './examples/6-interceptors'
 
 function App() {
     return (
@@ -14,6 +15,7 @@ function App() {
             <Postup/>
             <GlobalInst/>
             <CustomIns/>
+            <IntercepIns/>
         </main>
     );
 }
